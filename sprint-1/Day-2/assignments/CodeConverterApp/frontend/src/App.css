@@ -96,6 +96,7 @@ label {
   white-space: pre-wrap;
   width:30%;
   height:80%;
+  overflow: auto;
 }
 
 #input-container{

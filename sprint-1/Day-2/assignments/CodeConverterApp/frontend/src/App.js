@@ -19,7 +19,7 @@ function App() {
 
   const handleConvertClick = async () => {
     try {
-      const response = await axios.post("http://localhost:3001/convert", {
+      const response = await axios.post("https://outrageous-pear-pangolin.cyclic.app/convert", {
         code: sourceCode,
         targetLanguage,
       });
@@ -34,7 +34,7 @@ function App() {
 
   const handleDebugClick = async () => {
     try {
-      const response = await axios.post("http://localhost:3001/debug", {
+      const response = await axios.post("https://outrageous-pear-pangolin.cyclic.app/debug", {
         code: sourceCode,
       });
 
@@ -48,7 +48,7 @@ function App() {
 
   const handleQualityCheckClick = async () => {
     try {
-      const response = await fetch("http://localhost:3001/quality-check", {
+      const response = await fetch("https://outrageous-pear-pangolin.cyclic.app/quality-check", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -101,13 +101,13 @@ function App() {
           {convertedCode && (
             <div>
               <h3>Converted Code:</h3>
-              <pre>{convertedCode}</pre>
+              <p>{convertedCode}</p>
             </div>
           )}
           {debuggedCode && (
             <div>
               <h3>Debugged Code:</h3>
-              <pre>{debuggedCode}</pre>
+              <p>{debuggedCode}</p>
             </div>
           )}
           {codeQuality && (
