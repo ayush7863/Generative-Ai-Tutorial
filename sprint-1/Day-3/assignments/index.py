@@ -4,7 +4,6 @@ options = ("rock", "paper", "scissors")
 running = True
 
 while running:
-
     user_choice = None
     computer_choice = random.choice(options)
     User = 0
