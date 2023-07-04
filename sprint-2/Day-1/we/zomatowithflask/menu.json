@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "name": "Pizza",
+        "price": "100",
+        "available": "yes"
+    },
+    {
+        "id": "2",
+        "name": "Noodles",
+        "price": "50",
+        "available": "no"
+    },
+    {
+        "id": "3",
+        "name": "Pasta",
+        "price": "150",
+        "available": "yes"
+    },
+    {
+        "id": "4",
+        "name": "Samosa",
+        "price": "150",
+        "available": "no"
+    },
+    {
+        "id": "5",
+        "name": "kachori",
+        "price": "150",
+        "available": "yes"
+    }
+]
